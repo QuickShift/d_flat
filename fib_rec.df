@@ -1,0 +1,20 @@
+<> "#include <stdio.h>";
+
+Fib :: (N : int) -> int
+{
+    if (N == 0) || (N == 1) || (N == 2)
+    {
+        return 1;
+    }
+    return Fib(N - 1) + Fib(N - 2) + Fib(N - 3);
+}
+
+main :: () -> int
+{
+    printf("First 10 members of Fibonacci sequence:\n");
+    for i : int = 0; i < 10; i = i + 1
+    {
+        printf("%d\n", Fib(i));
+    }
+    return 0;
+}
