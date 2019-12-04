@@ -718,7 +718,7 @@ static void PrintToken(lexer* Lexer)
 // ----------
 // Heavily based on LLVM parser tutorial at:
 // https://llvm.org/docs/tutorial/index.html
-// Some design decisions based on open-source Jai compiler/transpiler at:
+// Bits of code based on open-source Jai compiler/transpiler at:
 // https://github.com/machinamentum/jai
 //
 // TODO(rytis): Check for memory leaks. Even better - implement dynamic allocator myself for guaranteed memory management process-wise.
