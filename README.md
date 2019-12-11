@@ -10,9 +10,7 @@ Has got the standard procedural programming language kit: flow control (`if`), l
 
 The whole code is located in the `transpiler.cpp` file. `.df` files are the D Flat example source files. Specified `.df` file is transpiled into a relatively readable `result.c` file, which is then compiled using a C compiler (in this case MSVC).
 
-For example: a D Flat file `foo.df` can be built with the `build.bat` file using a command like this:
-
-`build foo.df`
+For example: a D Flat file `foo.df` can be built (using the `build.bat` file) with the command `build foo.df`
 
 Launching the `run.bat` script with the command `run` will launch the compiled `result` executable.
 
